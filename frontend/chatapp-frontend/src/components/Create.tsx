@@ -1,0 +1,24 @@
+import React from 'react'
+import toast, { Toaster } from 'react-hot-toast'
+
+const Create = () => {
+    function Clicked() {
+        toast.success("Room Created", {
+      style: {
+    background: '#27272a', // zinc-800
+    color: '#fff',
+    fontFamily: 'doto',
+  },
+    });
+    }
+  return (
+    <div className='flex flex-col items-center justify-center gap-4'>
+        <Toaster/>
+      <h1 className='font-doto text-zinc-300 text-2xl'>Create a Room</h1>
+      <input type="text" placeholder='RoomId' className='p-2 border border-zinc-300 rounded-md font-doto text-zinc-300 max-w-[70%]' />
+      <button onClick={Clicked} className='p-1 px-4 border border-zinc-300 rounded-md text-zinc-300 font-doto hover:bg-zinc-600'>Create</button>
+    </div>
+  )
+}
+
+export default Create

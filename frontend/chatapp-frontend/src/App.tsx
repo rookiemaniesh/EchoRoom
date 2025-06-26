@@ -1,19 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
+import Dashboard from './pages/Dashboard'
+import Signup from './pages/Signup'
 
-import './App.css'
-import Input from './components/Input'
-
-function App() {
-  
-
+const App = () => {
   return (
-  <>
-  <div className='min-h-screen flex items-center justify-center bg-black'>
-   <div className='bg-zinc-900 p-8 rounded-xl max-w-lg w-full border-3 border-zinc-500 border-dashed'>
-    <Input placeholder='Type your message here...' />
-   </div>
-  </div>
-  </>
+    <div>
+      <Signup/>
+    </div>
   )
 }
 

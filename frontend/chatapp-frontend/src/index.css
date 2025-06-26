@@ -1,1 +1,9 @@
+@font-face {
+    font-family: Doto;
+    src: url(./assets//fonts/Doto-Regular.ttf);
+}
+
 @import "tailwindcss";
+@theme{
+    --font-doto: Doto, sans-serif;
+}
