@@ -1,0 +1,17 @@
+{
+  "name": "week16-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev":"tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.18.2"
+  }
+}
