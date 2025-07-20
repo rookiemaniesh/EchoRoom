@@ -2,7 +2,7 @@
 
 import '../App.css'
 import Create from '../components/Create'
-import Input from '../components/Input'
+
 import Join from '../components/Join'
 
 

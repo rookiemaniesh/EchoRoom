@@ -9,13 +9,16 @@ type MessageBoxProps = {
 const MessageBox: React.FC<MessageBoxProps> = ({ message, author, isMe }) => {
   return (
     <div
-      className={`max-w-[75%] break-words whitespace-pre-wrap p-1 px-4 rounded-lg mb-2 font-doto ${
-        isMe ? "bg-zinc-700 text-white self-end" : "bg-zinc-800 text-white self-start"
+      className={`max-w-[75%] break-words whitespace-pre-wrap p-3 rounded-lg mb-2 font-doto ${
+        isMe 
+          ? "bg-blue-600 text-white ml-auto" 
+          : "bg-gray-600 text-white mr-auto"
       }`}
-      style={{ alignSelf: isMe ? "flex-end" : "flex-start" }}
     >
-      <div className="pr-7">{message}</div>
-      <div className="text-xs  text-right opacity-70">{isMe?"You":author}</div>
+      <div className="mb-1">{message}</div>
+      <div className={`text-xs opacity-70 ${isMe ? "text-blue-200" : "text-gray-300"}`}>
+        {author}
+      </div>
     </div>
   );
 };
