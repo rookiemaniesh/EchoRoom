@@ -7,7 +7,7 @@ It allows users to join chat rooms and exchange messages instantly — no login 
 ## Screenshots
 
 ![App Screenshot](https://github.com/rookiemaniesh/EchoRoom/blob/main/Screenshot%202025-07-20%20190658.png)
-![App Screenshot](https://github.com/rookiemaniesh/EchoRoom/commit/e7950a7dce718593800b185182830033ecdd77f2)
+![App Screenshot](https://github.com/rookiemaniesh/EchoRoom/blob/e7950a7dce718593800b185182830033ecdd77f2/Screenshot%202025-07-20%20194212.png)
 ![App Screenshot](https://github.com/rookiemaniesh/EchoRoom/blob/main/Screenshot%202025-07-20%20194010.png)
 
 
