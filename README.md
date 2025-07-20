@@ -4,7 +4,9 @@
 EchoRoom is a real-time, room-based chat application built with WebSocket.
 It allows users to join chat rooms and exchange messages instantly — no login or authentication required. Designed for simplicity and speed, EchoRoom delivers seamless messaging through a lightweight Node.js backend and a React frontend.
 
+## Screenshots
 
+![App Screenshot](https://github.com/rookiemaniesh/EchoRoom/blob/main/Screenshot%202025-07-20%20190658.png)
 
 
 
