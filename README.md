@@ -6,9 +6,6 @@ It allows users to join chat rooms and exchange messages instantly — no login 
 
 
 
-## Screenshots
-
-![App Screenshot](https://drive.google.com/file/d/1B-z-icpQri6Sg6EEV2aefHfnDjDok8kT/view?usp=sharing)
 
 
 ## Demo
